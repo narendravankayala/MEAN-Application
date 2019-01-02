@@ -1,1 +1,2 @@
-# A Simple Contact Application using MEAN stack
+# Contact List Application using MEAN stack
+
