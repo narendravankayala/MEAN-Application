@@ -11,7 +11,7 @@ var app = express();
 const route  = require('./routes/route');
 
 //connecting to mongo database
-mongoose.connect('mongodb://localhost:27017/contactlist');
+mongoose.connect('mongodb://localhost:27017/contactlist',{ useNewUrlParser: true });
 //on connection with db
 mongoose.connection.on('Connected', ()=>{
     console.log('Connected to mongo db successfully at port number : 27017');
